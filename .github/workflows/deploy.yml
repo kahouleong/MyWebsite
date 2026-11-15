@@ -5,6 +5,25 @@ on:
     branches: [main]
     workflow_dispatch:
 
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    jobs:
+      validate:
+        runs-on: ubuntu-latest
+        steps:
+          - name: Checkout Repository
+            uses: actions/checkout@v6
+
+          - name: Check HTML File
+            run: test -f index.HTML
+
+    deploy:
+      needs: validate
+      runs-on: ubuntu-latest
+
     environment:
       name: github-pages
       url: $${{ steps.deployment.outputs.page_url }}
