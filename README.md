@@ -2,7 +2,7 @@
 
 ## Run locally
 
-Extract the website archive and open index.html in a browser. Keep style.css, app.js, and the assets folder beside index.html. No installation, build command, or backend is required. Google Fonts is optional at runtime. The page uses system fonts if the font request fails.
+Extract the website archive and open index.html in a browser. Keep style.css, app.js, car-models.js, and the assets folder beside index.html. No installation, build command, or backend is required. Google Fonts is optional at runtime. The page uses system fonts if the font request fails.
 
 ## Set up the WhatsApp button
 
@@ -14,4 +14,4 @@ The gallery uses assets/before.jpg and assets/after.jpg. Update their image desc
 
 ## Publish
 
-Upload index.html, style.css, app.js, and assets/ to the document root of any static web host. For a host that supports folder uploads, select the extracted folder containing index.html. Set the publish directory to that folder and leave the build command blank. Open the HTTPS address the host provides and check the gallery, calculator, and WhatsApp link on a phone.
+Upload index.html, style.css, app.js, car-models.js, and assets/ to the document root of any static web host. For a host that supports folder uploads, select the extracted folder containing index.html. Set the publish directory to that folder and leave the build command blank. Open the HTTPS address the host provides and check the gallery, calculator, and WhatsApp link on a phone.

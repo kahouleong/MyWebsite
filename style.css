@@ -46,8 +46,6 @@ figcaption,#contact-note{font-size:13px}
 .fields{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 .fields label{font-size:14px;font-weight:700;min-width:0}
 select{width:100%;min-height:47px;margin-top:7px;padding:8px;background:var(--bg);color:var(--text);border:1px solid #52625f;border-radius:0;font:inherit}
-.total{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:22px;padding:14px 0;border-top:1px solid var(--line)}
-output{color:var(--accent);font:800 48px/1 var(--display)}
 .whatsapp{width:100%}
 .whatsapp[aria-disabled=true]{background:#293a37;color:#c3d5d1;cursor:default}
 #contact-note{margin:8px 0 0}
@@ -73,5 +71,11 @@ footer{border-top:1px solid var(--line);border-bottom:0}
 .gallery-pair img{height:auto}
 .travel-heading{font:800 26px/1 var(--display);margin-top:30px}
 .travel-rates{max-width:420px;margin-top:12px}
-.travel-field{margin-top:14px;grid-template-columns:1fr}
-.travel-note{color:var(--muted);font-size:14px;margin:0 0 14px}
+
+.setup-summary{margin:0 0 22px;max-width:40ch;color:var(--muted);font-size:14px}
+.setup-list{margin:6px 0 0;padding-inline-start:20px;font-size:14px}
+
+.vehicle-fields{margin-top:14px}
+#car-other-label{grid-column:1/-1}
+#car-other{width:100%;min-height:47px;margin-top:7px;padding:8px;background:var(--bg);color:var(--text);border:1px solid #52625f;font:inherit}
+.service-field{grid-template-columns:1fr}
